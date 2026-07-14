@@ -42,8 +42,8 @@ connectDB();
 
 //  CORS setup
 const corsOptions = {
- origin: "http://localhost:5173", 
-  // origin: "https://client-sigma-gold.vercel.app",
+//  origin: "http://localhost:5173", 
+  origin: "https://crypto-roi-client.vercel.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
