@@ -1,7 +1,7 @@
 
 # Crypto ROI Platform
 
-A professional AI-powered crypto investment platform with multi-role user management, investment plans, MLM rewards, and peer-to-peer transfers.
+A professional crypto investment platform with multi-role user management, investment plans, MLM rewards, and peer-to-peer transfers.
 
 ## Project Overview
 
