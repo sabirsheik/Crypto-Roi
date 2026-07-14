@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+*{
+  box-sizing : border-box;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-colors: #00050f;
+  --secondary-colors: #98e39d;
+  --white-colors : #ffffff;
+}
+
+.primary-color {
+  color: var(--primary-colors);
+}
+
+.secondary-color {
+  color: var(--secondary-colors);
+}
+.white-color {
+  color: var(--white-colors);
+}
+html, body {
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.clip-notch {
+  clip-path: polygon(
+    12% 0%, 100% 0%, 100% 88%,
+    88% 100%, 0% 100%, 0% 12%
+  );
+}
+
+.wf{
+  width : 100vw !important;
+}
+
+/* Login Loading Spiner */
+
+/* Spinner */
+.loader {
+  border: 3px solid #ffffff;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

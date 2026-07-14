@@ -1,0 +1,84 @@
+@keyframes aroAnimation {
+  0%, 100% {
+    transform: translateZ(-100px) scaleX(-1);
+  }
+  50% {
+    transform: translateZ(100px) scaleX(1);
+  }
+}
+
+.animate-aro {
+  animation: aroAnimation 3s infinite ease-in-out both;
+}
+/* Referal Card */
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease infinite;
+}
+.scroll-set::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-set::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.scroll-set::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 116, 139, 0.5);
+  border-radius: 8px;
+}
+
+.scroll-set::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 116, 139, 0.8);
+}
+
+
+
+
+/* Optional shimmer animation */
+.shimmer-effect {
+  background-size: 400% 400%;
+  animation: shimmer 1.5s ease infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+
+/* Trust Referal */
+@keyframes gradientWave {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-wave {
+  background-size: 300% 300%;
+  animation: gradientWave 8s ease infinite;
+}
+
+/* Admin Layout Style */
+
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(-5px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.25s ease-out;
+}
