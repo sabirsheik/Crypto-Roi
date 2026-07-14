@@ -88,9 +88,6 @@ Create a `.env` file in the `server/` directory with the following variables:
 | `CLIENT` | Frontend URL (alternative) | `http://localhost:5173` |
 | `EMAIL_USER` | Email address for sending mails | `your-email@gmail.com` |
 | `EMAIL_PASS` | Email password or app password | `your-app-password` |
-| `HOSTINGER_EMAIL` | Hostinger business email | `support@yourdomain.com` |
-| `HOSTINGER_PASSWORD` | Hostinger email password | `your-hostinger-password` |
-| `HOSTINGER_OTP_EMAIL` | OTP sender email | `otp@yourdomain.com` |
 | `SUPER_ADMIN_EMAILS` | Super admin email(s) | `admin@yourdomain.com` |
 | `SUPER_ADMIN_EMAIL` | Super admin email (alternative) | `admin@yourdomain.com` |
 
