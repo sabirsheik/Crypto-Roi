@@ -65,7 +65,7 @@ app.use("/api/admin", userControlRoute);
 app.use("/api/admin", dashboardRoute);
 app.use("/api/access", accessRoute);
 app.use("/api", transactionHistoryRoute);
-app.use("/api", NotificationAlertRoute);
+app.use("/api/admin", NotificationAlertRoute);
 app.use("/api/admin/mlm-tree", mlmTreeRoute);
 app.use("/api/investment-plans", investmentPlansRoutes);
 app.use("/api", commissionLogsRoute);
