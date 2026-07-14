@@ -73,7 +73,7 @@ const AdminLayout = () => {
     setLoadingMessages(true);
     try {
       const res = await fetch(`${import.meta.env.VITE_API_URL}/api/all/messages`, {
-        headers: { Authorization: `Bearer ${authorizationToken}` },
+        headers: { Authorization: authorizationToken },
       });
       if (!res.ok) throw new Error("Failed to fetch messages");
       const data = await res.json();
@@ -103,7 +103,7 @@ const AdminLayout = () => {
     setLoadingNotifications(true);
     try {
       const res = await fetch(`${import.meta.env.VITE_API_URL}/api/admin/notifications`, {
-        headers: { Authorization: `Bearer ${authorizationToken}` },
+        headers: { Authorization: authorizationToken },
       });
       if (!res.ok) throw new Error("Failed to fetch notifications");
       const data = await res.json();
