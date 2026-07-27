@@ -473,7 +473,7 @@ const Register = () => {
                     darkMode ? "text-white" : "text-black"
                   }`}
                 >
-                  Role
+                  Role For Testing Purpose (User/Admin)
                 </label>
                 <select
                   name="role"
